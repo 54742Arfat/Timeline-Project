@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(230, 225, 184);
+}
+
+.navbar{
+    background-color: rgb(240, 198, 12);
+}

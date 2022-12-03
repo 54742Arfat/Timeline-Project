@@ -1,28 +1,27 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-timeline',
+  templateUrl: './timeline.component.html',
+  styleUrls: ['./timeline.component.css']
 })
-export class AppComponent {
-  title = 'timelines';
-  
+export class TimelineComponent {
+
   
   ngOnInit() {}
   
-  Education:any = [
+  Jobs:any = [
       {
         company: "ChatGen",
-    startDate: "Mar 2020",
-    endDate: "Apr 2021",
-    title: "Frontend Developer",
+        startDate: "Mar 2020",
+        endDate: "Apr 2021",
+        title: "Frontend Developer",
       },
       {
         company: "Mattermost",
-    startDate: "Aug 2020",
-    endDate: "Dec 2020",
-    title: "Contributor"
+        startDate: "Aug 2020",
+        endDate: "Dec 2020",
+        title: "Contributor"
       },
       {
         company: "Place Infotech",
@@ -39,5 +38,4 @@ export class AppComponent {
     ];
 
 
-
-  }
+}

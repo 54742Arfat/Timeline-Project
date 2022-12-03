@@ -1,0 +1,12 @@
+
+<h2>Job Timeline Data</h2>
+
+<h3>Experience</h3>
+
+<div>
+    <ul *ngFor="let dop of Jobs">
+        <li><h3>{{dop.company}}</h3></li>
+        <li>{{dop.startDate}} - {{dop.endDate}} </li>
+        <li>{{dop.title}}</li>
+    </ul>
+</div>
